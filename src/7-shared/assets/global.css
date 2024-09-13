@@ -1,0 +1,38 @@
+@import '_variables.css';
+
+* {
+  font-family: TT-Firs, sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: #4dabf7;
+}
+
+p {
+  color: var(--fg-primary-default);
+}
+
+@font-face {
+  font-family: 'TT-Firs';
+  src:
+    url('../assets/fonts/TT_Firs_Text_Trial/TT-Firs-Text-Trial-Regular-BF65726a788f69b.ttf') format('truetype'),
+    url('../assets/fonts/TT_Firs_Text_Trial/TT-Firs-Text-Trial-Regular-BF65726a788f69b.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'TT-Firs';
+  src:
+    url('../assets/fonts/TT_Firs_Text_Trial/TT-Firs-Text-Trial-Medium-BF65726a7883839.ttf') format('truetype'),
+    url('../assets/fonts/TT_Firs_Text_Trial/TT-Firs-Text-Trial-Medium-BF65726a7883839.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'TT-Firs';
+  src:
+    url('../assets/fonts/TT_Firs_Text_Trial/TT-Firs-Text-Trial-Bold-BF65726a782f29e.ttf') format('truetype'),
+    url('../assets/fonts/TT_Firs_Text_Trial/TT-Firs-Text-Trial-Bold-BF65726a782f29e.ttf') format('truetype');
+  font-weight: 600;
+}
